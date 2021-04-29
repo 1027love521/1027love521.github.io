@@ -2,8 +2,7 @@ function showTime() {
 	var currentDate = new Date(); 
 	var startDate = new Date();
 	startDate.setFullYear(2021);
-	startDate.setMonth(1);
-	startDate.setDate(25);
+	startDate.setMonth(1,25);
 	startDate.setHours(0,16,0,0);
 	var date3 = currentDate-startDate;
 	
